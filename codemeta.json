@@ -1,25 +1,26 @@
 {
   "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
-  "description": "YOUR DESCRIPTION",
-  "name": "YOUR REPOSITORY NAME",
-  "codeRepository": "https://github.com/caltechlibrary/REPONAME",
-  "issueTracker": "https://github.com/caltechlibrary/REPONAME/issues",
-  "license": "https://github.com/caltechlibrary/REPONAME/blob/master/LICENSE",
-  "version": "1.0.0",
+  "description": "feeds-lunr is an experiment for a search based in Python Lunr and LunrJS for contents of feeds.library.caltech.edu",
+  "name": "feeds-lunr",
+  "codeRepository": "https://github.com/caltechlibrary/feeds-lunr",
+  "issueTracker": "https://github.com/caltechlibrary/feeds-lunr/issues",
+  "license": "https://github.com/caltechlibrary/feeds-lunr/blob/master/LICENSE",
+  "version": "0.0.0",
   "author": [
     {
       "@type": "Person",
-      "givenName": "FIRSTNAME",
-      "familyName": "LASTNAME",
+      "givenName": "R. S.",
+      "familyName": "Doiel",
       "affiliation": "California Institute of Technology Library",
-      "email": "EMAIL",
-      "@id": "https://orcid.org/YOUR-ORCID"
+      "email": "rsdoiel@library.caltech.edu",
+      "@id": "https://orcid.org/0000-0003-0900-6903"
     }],
-  "developmentStatus": "active",
-  "downloadUrl": "https://github.com/caltechlibrary/REPONAME/archive/1.0.0.zip",
+  "developmentStatus": "concept",
+  "downloadUrl": "https://github.com/caltechlibrary/feeds-lunr/archive/0.0.0.zip",
   "keywords": [
     "software",
+    "search"
   ],
-  "maintainer": "https://orcid.org/YOUR-ORCID",
+  "maintainer": "https://orcid.org/0000-0003-0900-6903"
 }
