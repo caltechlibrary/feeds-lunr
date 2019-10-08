@@ -8,7 +8,10 @@ VERSION = $(shell jsoncols -quote=false -i codemeta.json .version)
 
 BRANCH = $(shell git branch | grep "* " | cut -d\   -f 2)
 
-build: website
+build: index-site website
+
+index-site:
+	./mk-indexes.py htdocs
 
 status:
 	git status

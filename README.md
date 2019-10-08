@@ -30,15 +30,31 @@ __feeds-lunr__ is an experimental implementation of search of feeds.library.calt
 Installation
 ------------
 
-Clone this repository, run `make` and then run `ws htdocs` static web server. This software requires Bash, unzip, Python 3, Python Lunr and network access as well as a web browser (e.g. Firefox), [datatools](https://github.com/caltechlibrary/datatools/) and [mkpage](https://github.com/caltechlibrary/mkpage/) be installed. It assumes you are running on a Unix like system (e.g. Lunix, Mac OS X).
+Pre-requisites:
 
++ Bash
++ Curl
++ [dataset](https://github.com/caltechlibrary/dataset/)
++ [datatools](https://github.com/caltechlibrary/datatools/)
++ [mkpage](https://github.com/caltechlibrary/mkpage/)
++ Python 3 
++ [Lunr](https://pypi.org/project/lunr/) 
++ [py_dataset](https://pypi.org/project/py-dataset/)
++ A web browser
 
-```bash
+Steps to setup and run this demo.
+
+1. Clone this repository and change directory to it
+2. Run `./setup.bash` to fetch our dataset collections
+3. Run `make` to build the demo
+4. Run `ws htdocs` to start a localhost web server
+5. Point you web browser at the localhost web server and try it out
+
+```Bash
     git clone https://github.com/caltechlibrary/feeds-lunr
     cd feeds-lunr
     ./setup-demo.bash
     make
-    make indexes
     ws htdocs
 ```
 
@@ -47,6 +63,13 @@ Usage
 -----
 
 [Usage](#usage) setup and run the local web service as described in the installation section. Point your web browser at the URL where the web service is running.
+
+If you've successfully installed everything
+
+```Bash
+    make
+    ws htdocs
+```
 
 
 Known issues and limitations
@@ -93,6 +116,6 @@ This work was funded by the California Institute of Technology Library.
 <div align="center">
   <br>
   <a href="https://www.caltech.edu">
-    <img width="100" height="100" src=".graphics/caltech-round.svg">
+    <img width="100" height="100" src="assets/caltech-round.svg">
   </a>
 </div>

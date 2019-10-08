@@ -10,7 +10,9 @@ custom_page_map = {
         "INSTALL.md": "install.html",
         "LICENSE": "license.html",
         "DEVELOPERS.md": "developers.html",
-        "CONTRIBUTING.md": "contributing.html"
+        "CONTRIBUTING.md": "contributing.html",
+        "CODE_OF_CONDUCT.md": "code-of-conduct.html",
+        "CHANGES.md": "changes.html"
 }
 
 md_fragments = [
